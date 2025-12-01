@@ -3,7 +3,7 @@ Nome:Thiago Gonçalves De Souza
 Matrícula:252014958
 
 
-SObre o Projeto
+Sobre o Projeto
 Projeto Final – Sistema de Cadastro e Consulta de Produtos Funcionalidades do Sistema O
 sistema desenvolvido possui um conjunto robusto de recursos para manipulação de produtos
 utilizando linguagem C. As principais funcionalidades são: Cadastro de Produtos: Permite inserir
