@@ -1,19 +1,36 @@
-# Projeto-Final-APC
-Nome:Thiago Gonçalves De Souza
-<br>
-Matrícula:252014958
+# Sistema de Cadastro de Produtos
 
-## Sistema de Cadastro e Consulta de Produtos
-### Sobre o Projeto
+**Nome:** Thiago Gonçalves De Souza
+**Matrícula:** 252014958
 
-Projeto Final – Sistema de Cadastro e Consulta de Produtos Funcionalidades do Sistema O
-sistema desenvolvido possui um conjunto robusto de recursos para manipulação de produtos
-utilizando linguagem C. 
-### funcionalidades 
+## Sobre o Projeto
 
-são: Cadastro de Produtos: Permite inserir código, nome, preço e quantidade. Listagem: Mostra todos os produtos cadastrados com
-formatação clara. Consulta: Busca pelo código usando função específica (requisito do projeto).
-Edição: Altera dados de produtos já cadastrados. Exclusão: Remove um produto e reorganiza o
-vetor. Menu Colorido: Utilização de ANSI Colors para tornar o sistema visualmente mais bonito.
-Limpeza de Tela / Pausa: Melhoram a experiência durante a navegação. Estrutura Modular: Uso
-intensivo de funções para organização e clareza
+Este repositório contém a implementação de um sistema de gerenciamento de estoque simples (CRUD), desenvolvido em linguagem C. O projeto foi criado para aplicar e consolidar conhecimentos fundamentais de lógica de programação e estruturação de dados.
+
+O objetivo principal foi criar uma aplicação de console que permitisse a persistência de dados em memória durante a execução, utilizando:
+
+* **Structs:** Para definição da entidade "Produto".
+* **Manipulação de Strings:** Uso de funções como `fgets`, `sscanf` e `strncpy`.
+* **Ponteiros:** Para manipulação de contadores e passagem de parâmetros.
+* **Modularização:** Código dividido em funções específicas (Single Responsibility Principle).
+* **Interface de Usuário:** Uso de cores ANSI para melhor experiência no terminal.
+
+## Funcionalidades
+
+* **Cadastrar Produto:** Permite a inserção de novos itens com validação de tipos de dados (Inteiro/Float).
+* **Listar Produtos:** Exibe todos os produtos cadastrados com formatação organizada.
+* **Consultar por Código:** Busca linear para encontrar um produto específico pelo seu ID único.
+* **Editar Produto:** Permite alterar dados de um produto existente (Nome, Preço ou Quantidade), mantendo os dados antigos caso o usuário deixe o campo em branco.
+* **Excluir Produto:** Remove um item do vetor e reorganiza a lista para evitar "buracos" no array.
+
+## Tecnologias Utilizadas
+
+* **Linguagem:** C
+* **Compilador:** GCC
+* **IDE Recomendada:** Visual Studio Code
+
+## Como Compilar e Executar
+
+### Pré-requisitos
+
+Certifique-se de ter um compilador C instalado (como o GCC).
