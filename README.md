@@ -23,7 +23,7 @@ O objetivo principal foi criar uma aplicação de console que permitisse a persi
 * **Editar Produto:** Permite alterar dados de um produto existente (Nome, Preço ou Quantidade), mantendo os dados antigos caso o usuário deixe o campo em branco.
 * **Excluir Produto:** Remove um item do vetor e reorganiza a lista para evitar "buracos" no array.
 
-## Tecnologias Utilizadas
+## Tecnologia Utilizada
 
 * **Linguagem:** C
 * **Compilador:** GCC
